@@ -1,0 +1,15 @@
+{
+  "name": "kyronix-resolver-api",
+  "version": "1.0.0",
+  "description": "High-throughput serverless Instagram & Spotify resolver API for KyronixPlayer",
+  "main": "api/instagram.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@sasmeee/igdl": "^0.0.1-security",
+    "axios": "^1.7.9",
+    "instagram-url-direct": "^2.0.7"
+  }
+}
